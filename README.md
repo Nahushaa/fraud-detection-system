@@ -1,21 +1,32 @@
-# Data Preprocessing and Visualization Project
+# Fraud Detection System – Final Visualization
 
-## 🔍 Overview
-This project includes:
-- Cleaning and handling missing values
-- Feature selection and engineering
-- Handling outliers and transformations
-- Summary statistics and data visualizations
+## 📊 Objective
+This project visualizes the Kaggle Credit Card Fraud Detection dataset with an interactive dashboard using Plotly Dash.
 
-## 🧾 Project Structure
-- data/` – Raw and cleaned datasets
-- notebooks/` – Jupyter notebooks used for exploration
-- src/` – Modular Python scripts
-- visualizations/` – Plots and visual insights
-- presentation/` – Final project slides
+## 📁 Structure
+- `data/`: Dataset (creditcard.csv)
+- `src/`: Preprocessing and plotting scripts
+- `dashboard/`: Dash app
+- `notebooks/`: EDA notebooks
+- `visuals/`: Static images (optional)
 
-## 🚀 Setup Instructions
-bash
-git clone https://github.com/Nahushaa/fraud-detection-system.git
-cd data-preprocessing-project
-pip install -r requirements.txt
+## ▶️ How to Run
+1. Create virtual environment and activate:
+    python -m venv venv
+    source venv/bin/activate  (Linux/macOS)
+    venv\Scripts\activate  (Windows)
+
+2. Install requirements:
+    pip install -r requirements.txt
+
+3. Run Dash app:
+    python dashboard/app.py
+
+## 📦 Requirements
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+- dash
+- scikit-learn
